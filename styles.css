@@ -63,7 +63,6 @@ form {
   width: 40vw;
   align-items: flex-start;
   font-size: 1.1rem;
-  height: 30vh;
 }
 
 button {
@@ -97,12 +96,10 @@ p {
 .letsdo {
   font-style: italic;
 }
-label,
-input {
-  display: flex;
-  flex-direction: column;
-}
 
 .form-container {
-  box-sizing: content-box;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: auto auto auto;
 }
