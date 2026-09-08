@@ -63,6 +63,7 @@ form {
   width: 40vw;
   align-items: flex-start;
   font-size: 1.1rem;
+  padding-bottom: 10px;
 }
 
 button {
@@ -102,4 +103,13 @@ p {
   grid-auto-flow: column;
   grid-template-columns: 200px 200px;
   grid-template-rows: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.input-item {
+  margin: 5px;
+}
+
+input {
+  width: 200px;
 }
