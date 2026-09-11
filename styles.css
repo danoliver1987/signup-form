@@ -5,6 +5,18 @@
   font-size: 16px;
 }
 
+@font-face {
+  font-family: "Norse";
+  src: url("fonts/Norse.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Norse";
+  src: url("fonts/Norsebold.otf") format("opentype");
+  font-weight: bold;
+}
+
 h1,
 h2,
 h3,
@@ -46,7 +58,7 @@ body {
   justify-content: center;
 }
 
-img {
+.choc {
   width: 35vw;
 }
 
@@ -166,4 +178,31 @@ button,
 h4 {
   position: relative;
   top: 80px;
+}
+
+.logoBackground {
+  width: 35vw;
+  height: 15vh;
+  background-color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 172px;
+  opacity: 40%;
+}
+
+.odin-logo {
+  height: 12vh;
+  position: absolute;
+  bottom: 30px;
+  left: 180px;
+}
+
+.odin-choc {
+  font-family: "Norse", sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 255px;
+  font-weight: 900;
+  font-size: 80px;
 }

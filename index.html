@@ -7,88 +7,97 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
     <div class="full-container">
+      <div class="left-side">
+        <img
+          class="choc"
+          src="images/choc.jpg"
+          alt="Signage repeating the word 'Chocolate' three times"
+        />
+        <!-- Photo credit : Alexander Kaufmann on Unsplash -->
+        <div class="logoBackground"></div>
+        <img
+          class="odin-logo"
+          src="images/odin-lined.png"
+          alt="A logo representing Odin Chocolate"
+        />
+        <div class="odin-choc">Odin Chocolate</div>
+      </div>
 
-    <div class="left-side">
-      <img
-        src="images/choc.jpg"
-        alt="Signage repeating the word 'Chocolate' three times"
-      />
-      <!-- Photo credit : Alexander Kaufmann on Unsplash -->
-    
+      <div class="right-side">
+        <p>
+          With (company name) you will receive the finest chocolate from around
+          the world. Sign up now to receive 50% off your first order.
+        </p>
+
+        <form method="post">
+          <h2>Let's do this!</h2>
+
+          <div class="form-container">
+            <div class="input-item">
+              <label for="first_name">First Name:</label>
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder="Joe"
+              />
+            </div>
+
+            <div class="input-item">
+              <label for="user_email">Email Address:</label>
+              <input
+                type="email"
+                id="user_email"
+                name="email"
+                placeholder="you@example.com"
+              />
+            </div>
+
+            <div class="input-item">
+              <label for="user_password">Password:</label>
+              <input
+                type="password"
+                id="user_password"
+                name="password"
+                placeholder="Minimum 6 characters"
+              />
+            </div>
+
+            <div class="input-item">
+              <label for="last_name">Last Name:</label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Bloggs"
+              />
+            </div>
+
+            <div class="input-item">
+              <label for="phone_number">Phone Number:</label>
+              <input type="tel" id="phone_number" name="phone_number" />
+            </div>
+
+            <div class="input-item">
+              <label for="confirm_password">Password:</label>
+              <input
+                type="password"
+                id="confirm_password"
+                name="confirm-password"
+                placeholder="Minimum 6 characters"
+              />
+            </div>
+          </div>
+        </form>
+
+        <button>Create account</button>
+
+        <h4>
+          Already have an account?
+          <a href="https://www.mozilla.org/en-US/">Log in</a>
+        </h4>
+      </div>
     </div>
-
-    <div class="right-side">
-
-    <p>With (company name) you will receive the finest chocolate from around 
-        the world. Sign up now to receive 50% off your first order.
-    </p>
-
-    <form method="post">
-
-        <h2>Let's do this!</h2>
-
-        <div class="form-container">
-
-        <div class="input-item">
-        <label for="first_name">First Name:</label>
-        <input type="text" 
-        id="first_name" 
-        name="first_name" 
-        placeholder="Joe">
-        </div>
-
-        <div class="input-item">
-        <label for="user_email">Email Address:</label>
-        <input type="email" 
-        id="user_email" 
-        name="email" 
-        placeholder="you@example.com">
-        </div>
-
-        <div class="input-item">
-        <label for="user_password">Password:</label>
-        <input type="password" 
-        id="user_password" 
-        name="password"
-        placeholder="Minimum 6 characters">
-        </div>
-
-        <div class="input-item">
-        <label for="last_name">Last Name:</label>
-        <input type="text" 
-        id="last_name" 
-        name="last_name" 
-        placeholder="Bloggs">
-        </div>
-
-        <div class="input-item">
-        <label for="phone_number">Phone Number:</label>
-        <input type="tel" id="phone_number" name="phone_number">
-        </div>
-
-        <div class="input-item">
-        <label for="confirm_password">Password:</label>
-        <input type="password" 
-        id="confirm_password" 
-        name="confirm-password"
-        placeholder="Minimum 6 characters">
-        </div>
-        
-    </div>
-
-    </form>
-
-    <button>Create account</button>
-
-    <h4>Already have an account? <a href="https://www.mozilla.org/en-US/">Log in</a></h4>
-
-    </div>
-
-    </div>
-
-    </div>
-
   </body>
 </html>
