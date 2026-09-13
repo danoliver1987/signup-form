@@ -95,6 +95,7 @@ button {
   background-color: brown;
   color: white;
   font-family: "cochin", sans-serif;
+  font-size: 1.1rem;
 }
 
 p {
@@ -108,6 +109,7 @@ p {
 
 h4 {
   font-family: "cochin", sans-serif;
+  margin-left: 20px;
 }
 
 h2 {
