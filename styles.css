@@ -127,12 +127,23 @@ h2 {
 }
 
 .input-item {
-  margin: 5px;
+  margin: 3px;
 }
 
 input {
   width: 200px;
   border-radius: 5px;
+  border-color: #e5e7eb;
+  border-style: solid;
+}
+
+:user-invalid {
+  border-color: red;
+}
+
+:focus {
+  border-color: blue;
+  box-shadow: 2px 2px 5px black;
 }
 
 p,
