@@ -159,7 +159,11 @@ h4 {
   height: 15vh;
   background-color: black;
   position: absolute;
+<<<<<<< HEAD
   bottom: 20px;
+=======
+  bottom: 150px;
+>>>>>>> f77a490 (Refine positioning on left-hand side)
   left: 172px;
   opacity: 40%;
 }
@@ -167,7 +171,11 @@ h4 {
 .odin-logo {
   height: 12vh;
   position: absolute;
+<<<<<<< HEAD
   bottom: 30px;
+=======
+  bottom: 160px;
+>>>>>>> f77a490 (Refine positioning on left-hand side)
   left: 180px;
 }
 
@@ -175,7 +183,11 @@ h4 {
   font-family: "Norse", sans-serif;
   color: white;
   position: absolute;
+<<<<<<< HEAD
   bottom: 15px;
+=======
+  bottom: 150px;
+>>>>>>> f77a490 (Refine positioning on left-hand side)
   left: 255px;
   font-weight: 900;
   font-size: 80px;
