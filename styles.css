@@ -89,6 +89,7 @@ button {
   width: 200px;
   height: 30px;
   border-radius: 5px;
+  border-style: solid;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
@@ -124,6 +125,9 @@ h2 {
   grid-template-columns: 200px 200px;
   grid-template-rows: auto auto auto;
   justify-content: space-evenly;
+  height: 250px;
+  align-items: center;
+  justify-items: center;
 }
 
 .input-item {
@@ -131,7 +135,8 @@ h2 {
 }
 
 input {
-  width: 200px;
+  width: 250px;
+  height: 25px;
   border-radius: 5px;
   border-color: #e5e7eb;
   border-style: solid;
