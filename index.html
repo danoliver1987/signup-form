@@ -82,7 +82,14 @@
 
             <div class="input-item">
               <label for="phone_number">Phone Number:</label>
-              <input type="tel" id="phone_number" name="phone_number" />
+              <input
+                type="tel"
+                id="phone_number"
+                name="phone_number"
+                pattern="^[0-9-+\s()]{6,16}"
+                maxlength="16"
+                minlength="6"
+              />
             </div>
 
             <div class="input-item">
