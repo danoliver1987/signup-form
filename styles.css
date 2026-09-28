@@ -140,6 +140,7 @@ input {
   border-radius: 5px;
   border-color: #e5e7eb;
   border-style: solid;
+  box-shadow: 3px 3px 3px black;
 }
 
 :user-invalid {
