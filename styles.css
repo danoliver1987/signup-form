@@ -140,7 +140,7 @@ input {
   border-radius: 5px;
   border-color: #e5e7eb;
   border-style: solid;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 1px 1px 3px black;
 }
 
 :user-invalid {
@@ -149,7 +149,7 @@ input {
 
 :focus {
   border-color: blue;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 3px 3px 3px black;
 }
 
 p,
