@@ -66,9 +66,10 @@
                 type="password"
                 id="user_password"
                 name="password"
-                placeholder="Choose between 6-16 characters"
+                placeholder="8-16 characters"
                 maxlength="16"
-                minlength="6"
+                minlength="8"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}"
                 required
               />
             </div>
@@ -104,7 +105,9 @@
                 id="confirm_password"
                 name="confirm-password"
                 maxlength="16"
-                minlength="6"
+                minlength="8"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}"
+                title="Should match the Password field"
                 required
               />
             </div>
